@@ -1,0 +1,3 @@
+{
+  "privileges": ["audit_query", "audit_edit", "audit_create", "audit_delete"]
+}

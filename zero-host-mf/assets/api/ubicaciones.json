@@ -1,0 +1,55 @@
+{
+  "data": [
+    {
+      "label": "[CO] Colombia",
+      "collapsedIcon": "fa-folder",
+      "expandedIcon": "fa-folder-open",
+      "children": [
+        {
+          "label": "[73] Tolima",
+          "collapsedIcon": "fa-folder",
+          "expandedIcon": "fa-folder-open",
+          "children": [
+            {
+              "label": "[73001] Ibague",
+              "icon": "fa-file-o",
+              "data": "https://angular.io",
+              "type": "url"
+            }
+          ]
+        },
+        {
+          "label": "[85] Casanare",
+          "collapsedIcon": "fa-folder",
+          "expandedIcon": "fa-folder-open",
+          "children": [
+            {
+              "label": "[85001] Yopal",
+              "icon": "fa-file-o",
+              "data": "https://angular.io",
+              "type": "url"
+            }
+          ]
+        },
+        {
+          "label": "[25] Cundinamarca",
+          "icon": "fa-file-o",
+          "children": [
+            {
+              "label": "[25035] Anapoima",
+              "icon": "fa-file-o",
+              "data": "https://angular.io",
+              "type": "url"
+            },
+            {
+              "label": "[25175] Chia",
+              "icon": "fa-file-o",
+              "data": "https://angular.io",
+              "type": "url"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

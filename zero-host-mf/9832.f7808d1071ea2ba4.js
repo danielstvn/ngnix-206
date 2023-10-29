@@ -1,0 +1,1 @@
+(self.webpackChunkzero_host_mf=self.webpackChunkzero_host_mf||[]).push([[9832],{19832:(n,s,e)=>{e.r(s),e.d(s,{TranslateHttpLoader:()=>h});class h{constructor(t,a="/assets/i18n/",i=".json"){this.http=t,this.prefix=a,this.suffix=i}getTranslation(t){return this.http.get(`${this.prefix}${t}${this.suffix}`)}}}}]);

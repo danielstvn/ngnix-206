@@ -1,0 +1,48 @@
+.btn-table-small {
+  width: 26px;
+  height: 26px;
+  padding: 2px !important;
+  font-size: 14px;
+}
+
+.cell-status {
+  width: 200px;
+}
+
+.leftdt {
+  float: left;
+}
+.rightdt {
+  float: right;
+  margin-top: 12px !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  padding: 2px 10px !important;
+}
+
+.ngx-datatable.bootstrap {
+  font-size: 16px !important;
+}
+
+.datatable-header {
+  color: white;
+  background-color: $azulXoftix;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.ngx-datatable .datatable-footer .datatable-footer-inner {
+  height: 50px;
+  background-color: #ddd !important;
+  color: black !important;
+}
+
+.ngx-datatable.bootstrap .datatable-footer .datatable-pager a {
+  color: black !important;
+}
+
+.ngx-datatable.bootstrap .datatable-footer .datatable-pager ul li:not(.disabled).active a,
+.ngx-datatable.bootstrap .datatable-footer .datatable-pager ul li:not(.disabled):hover a {
+  color: white !important;
+}

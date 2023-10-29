@@ -1,0 +1,762 @@
+[
+    {
+        "data": {
+            "metric": "Networking Stack",
+            "description": "Metrics for the networking stack of the system. These metrics are collected from <code>/proc/net/netstat</code>, apply to both IPv4 and IPv6 traffic and are related to operation of the kernel networking stack.",
+            "id": ""
+        },
+        "children": [
+            {
+                "data": {
+                    "metric": "tcp",
+                    "description": null,
+                    "id": "Networking Stacktcp"
+                }
+            },
+            {
+                "data": {
+                    "metric": "ecn",
+                    "description": "<a href=\"https://en.wikipedia.org/wiki/Explicit_Congestion_Notification\" target=\"_blank\">Explicit Congestion Notification (ECN)</a> is a TCP extension that allows end-to-end notification of network congestion without dropping packets. ECN is an optional feature that may be used between two ECN-enabled endpoints when the underlying network infrastructure also supports it.",
+                    "id": "Networking Stackecn"
+                }
+            },
+            {
+                "data": {
+                    "metric": "broadcast",
+                    "description": null,
+                    "id": "Networking Stackbroadcast"
+                }
+            },
+            {
+                "data": {
+                    "metric": "multicast",
+                    "description": null,
+                    "id": "Networking Stackmulticast"
+                }
+            }
+        ]
+    },
+    {
+        "data": {
+            "metric": "systemd Services",
+            "description": "Resources utilization of systemd services. netdata monitors all systemd services via CGROUPS (the resources accounting used by containers). ",
+            "id": ""
+        },
+        "children": [
+            {
+                "data": {
+                    "metric": "mem",
+                    "description": null,
+                    "id": "systemd Servicesmem"
+                }
+            },
+            {
+                "data": {
+                    "metric": "cpu",
+                    "description": null,
+                    "id": "systemd Servicescpu"
+                }
+            }
+        ]
+    },
+    {
+        "data": {
+            "metric": "IPv4 Networking",
+            "description": "Metrics for the IPv4 stack of the system. <a href=\"https://en.wikipedia.org/wiki/IPv4\" target=\"_blank\">Internet Protocol version 4 (IPv4)</a> is the fourth version of the Internet Protocol (IP). It is one of the core protocols of standards-based internetworking methods in the Internet. IPv4 is a connectionless protocol for use on packet-switched networks. It operates on a best effort delivery model, in that it does not guarantee delivery, nor does it assure proper sequencing or avoidance of duplicate delivery. These aspects, including data integrity, are addressed by an upper layer transport protocol, such as the Transmission Control Protocol (TCP).",
+            "id": ""
+        },
+        "children": [
+            {
+                "data": {
+                    "metric": "tcp",
+                    "description": null,
+                    "id": "IPv4 Networkingtcp"
+                }
+            },
+            {
+                "data": {
+                    "metric": "udp",
+                    "description": null,
+                    "id": "IPv4 Networkingudp"
+                }
+            },
+            {
+                "data": {
+                    "metric": "icmp",
+                    "description": null,
+                    "id": "IPv4 Networkingicmp"
+                }
+            },
+            {
+                "data": {
+                    "metric": "errors",
+                    "description": null,
+                    "id": "IPv4 Networkingerrors"
+                }
+            },
+            {
+                "data": {
+                    "metric": "packets",
+                    "description": null,
+                    "id": "IPv4 Networkingpackets"
+                }
+            },
+            {
+                "data": {
+                    "metric": "sockets",
+                    "description": null,
+                    "id": "IPv4 Networkingsockets"
+                }
+            }
+        ]
+    },
+    {
+        "data": {
+            "metric": "Disks",
+            "description": "Charts with performance information for all the system disks. Special care has been given to present disk performance metrics in a way compatible with <code>iostat -x</code>. netdata by default prevents rendering performance charts for individual partitions and unmounted virtual disks. Disabled charts can still be enabled by configuring the relative settings in the netdata configuration file.",
+            "id": ""
+        },
+        "children": [
+            {
+                "data": {
+                    "metric": "sda",
+                    "description": null,
+                    "id": "Diskssda"
+                }
+            },
+            {
+                "data": {
+                    "metric": "sr0",
+                    "description": null,
+                    "id": "Diskssr0"
+                }
+            },
+            {
+                "data": {
+                    "metric": "/var/tmp",
+                    "description": null,
+                    "id": "Disks/var/tmp"
+                }
+            },
+            {
+                "data": {
+                    "metric": "/var/spool",
+                    "description": null,
+                    "id": "Disks/var/spool"
+                }
+            },
+            {
+                "data": {
+                    "metric": "/var/log",
+                    "description": null,
+                    "id": "Disks/var/log"
+                }
+            },
+            {
+                "data": {
+                    "metric": "/var/lib/netdata",
+                    "description": null,
+                    "id": "Disks/var/lib/netdata"
+                }
+            },
+            {
+                "data": {
+                    "metric": "/var/cache/netdata",
+                    "description": null,
+                    "id": "Disks/var/cache/netdata"
+                }
+            },
+            {
+                "data": {
+                    "metric": "/run/netdata",
+                    "description": null,
+                    "id": "Disks/run/netdata"
+                }
+            },
+            {
+                "data": {
+                    "metric": "/tmp",
+                    "description": null,
+                    "id": "Disks/tmp"
+                }
+            },
+            {
+                "data": {
+                    "metric": "/run/lock",
+                    "description": null,
+                    "id": "Disks/run/lock"
+                }
+            },
+            {
+                "data": {
+                    "metric": "/run",
+                    "description": null,
+                    "id": "Disks/run"
+                }
+            },
+            {
+                "data": {
+                    "metric": "/dev/shm",
+                    "description": null,
+                    "id": "Disks/dev/shm"
+                }
+            },
+            {
+                "data": {
+                    "metric": "/dev",
+                    "description": null,
+                    "id": "Disks/dev"
+                }
+            }
+        ]
+    },
+    {
+        "data": {
+            "metric": "Netdata Monitoring",
+            "description": "Performance metrics for the operation of netdata itself and its plugins.",
+            "id": ""
+        },
+        "children": [
+            {
+                "data": {
+                    "metric": "dbengine",
+                    "description": null,
+                    "id": "Netdata Monitoringdbengine"
+                }
+            },
+            {
+                "data": {
+                    "metric": "queries",
+                    "description": null,
+                    "id": "Netdata Monitoringqueries"
+                }
+            },
+            {
+                "data": {
+                    "metric": "netdata",
+                    "description": null,
+                    "id": "Netdata Monitoringnetdata"
+                }
+            },
+            {
+                "data": {
+                    "metric": "proc",
+                    "description": null,
+                    "id": "Netdata Monitoringproc"
+                }
+            },
+            {
+                "data": {
+                    "metric": "diskspace",
+                    "description": null,
+                    "id": "Netdata Monitoringdiskspace"
+                }
+            },
+            {
+                "data": {
+                    "metric": "python.d",
+                    "description": null,
+                    "id": "Netdata Monitoringpython.d"
+                }
+            },
+            {
+                "data": {
+                    "metric": "apps.plugin",
+                    "description": null,
+                    "id": "Netdata Monitoringapps.plugin"
+                }
+            },
+            {
+                "data": {
+                    "metric": "cgroups",
+                    "description": null,
+                    "id": "Netdata Monitoringcgroups"
+                }
+            },
+            {
+                "data": {
+                    "metric": "web",
+                    "description": null,
+                    "id": "Netdata Monitoringweb"
+                }
+            },
+            {
+                "data": {
+                    "metric": "tc.helper",
+                    "description": null,
+                    "id": "Netdata Monitoringtc.helper"
+                }
+            },
+            {
+                "data": {
+                    "metric": "statsd",
+                    "description": null,
+                    "id": "Netdata Monitoringstatsd"
+                }
+            }
+        ]
+    },
+    {
+        "data": {
+            "metric": "System Overview",
+            "description": "Overview of the key system metrics.",
+            "id": ""
+        },
+        "children": [
+            {
+                "data": {
+                    "metric": "ipc shared memory",
+                    "description": null,
+                    "id": "System Overviewipc shared memory"
+                }
+            },
+            {
+                "data": {
+                    "metric": "ipc semaphores",
+                    "description": null,
+                    "id": "System Overviewipc semaphores"
+                }
+            },
+            {
+                "data": {
+                    "metric": "disk",
+                    "description": null,
+                    "id": "System Overviewdisk"
+                }
+            },
+            {
+                "data": {
+                    "metric": "softnet",
+                    "description": "Statistics for CPUs SoftIRQs related to network receive work. Break down per CPU core can be found at <a href=\"#menu_cpu_submenu_softnet_stat\">CPU / softnet statistics</a>. <b>processed</b> states the number of packets processed, <b>dropped</b> is the number packets dropped because the network device backlog was full (to fix them on Linux use <code>sysctl</code> to increase <code>net.core.netdev_max_backlog</code>), <b>squeezed</b> is the number of packets dropped because the network device budget ran out (to fix them on Linux use <code>sysctl</code> to increase <code>net.core.netdev_budget</code> and/or <code>net.core.netdev_budget_usecs</code>). More information about identifying and troubleshooting network driver related issues can be found at <a href=\"https://access.redhat.com/sites/default/files/attachments/20150325_network_performance_tuning.pdf\" target=\"_blank\">Red Hat Enterprise Linux Network Performance Tuning Guide</a>.",
+                    "id": "System Overviewsoftnet"
+                }
+            },
+            {
+                "data": {
+                    "metric": "network",
+                    "description": null,
+                    "id": "System Overviewnetwork"
+                }
+            },
+            {
+                "data": {
+                    "metric": "swap",
+                    "description": null,
+                    "id": "System Overviewswap"
+                }
+            },
+            {
+                "data": {
+                    "metric": "ram",
+                    "description": null,
+                    "id": "System Overviewram"
+                }
+            },
+            {
+                "data": {
+                    "metric": "softirqs",
+                    "description": null,
+                    "id": "System Overviewsoftirqs"
+                }
+            },
+            {
+                "data": {
+                    "metric": "interrupts",
+                    "description": null,
+                    "id": "System Overviewinterrupts"
+                }
+            },
+            {
+                "data": {
+                    "metric": "cpu",
+                    "description": null,
+                    "id": "System Overviewcpu"
+                }
+            },
+            {
+                "data": {
+                    "metric": "entropy",
+                    "description": null,
+                    "id": "System Overviewentropy"
+                }
+            },
+            {
+                "data": {
+                    "metric": "processes",
+                    "description": null,
+                    "id": "System Overviewprocesses"
+                }
+            },
+            {
+                "data": {
+                    "metric": "load",
+                    "description": null,
+                    "id": "System Overviewload"
+                }
+            },
+            {
+                "data": {
+                    "metric": "uptime",
+                    "description": null,
+                    "id": "System Overviewuptime"
+                }
+            },
+            {
+                "data": {
+                    "metric": "idlejitter",
+                    "description": null,
+                    "id": "System Overviewidlejitter"
+                }
+            }
+        ]
+    },
+    {
+        "data": {
+            "metric": "Firewall (netfilter)",
+            "description": "Performance metrics of the netfilter components.",
+            "id": ""
+        },
+        "children": [
+            {
+                "data": {
+                    "metric": "connection tracker",
+                    "description": "Netfilter Connection Tracker performance metrics. The connection tracker keeps track of all connections of the machine, inbound and outbound. It works by keeping a database with all open connections, tracking network and address translation and connection expectations.",
+                    "id": "Firewall (netfilter)connection tracker"
+                }
+            },
+            {
+                "data": {
+                    "metric": "netlink",
+                    "description": null,
+                    "id": "Firewall (netfilter)netlink"
+                }
+            }
+        ]
+    },
+    {
+        "data": {
+            "metric": "CPUs",
+            "description": "Detailed information for each CPU of the system. A summary of the system for all CPUs can be found at the <a href=\"#menu_system\">System Overview</a> section.",
+            "id": ""
+        },
+        "children": [
+            {
+                "data": {
+                    "metric": "softnet",
+                    "description": "Statistics for per CPUs core SoftIRQs related to network receive work. Total for all CPU cores can be found at <a href=\"#menu_system_submenu_softnet_stat\">System / softnet statistics</a>. <b>processed</b> states the number of packets processed, <b>dropped</b> is the number packets dropped because the network device backlog was full (to fix them on Linux use <code>sysctl</code> to increase <code>net.core.netdev_max_backlog</code>), <b>squeezed</b> is the number of packets dropped because the network device budget ran out (to fix them on Linux use <code>sysctl</code> to increase <code>net.core.netdev_budget</code> and/or <code>net.core.netdev_budget_usecs</code>). More information about identifying and troubleshooting network driver related issues can be found at <a href=\"https://access.redhat.com/sites/default/files/attachments/20150325_network_performance_tuning.pdf\" target=\"_blank\">Red Hat Enterprise Linux Network Performance Tuning Guide</a>.",
+                    "id": "CPUssoftnet"
+                }
+            },
+            {
+                "data": {
+                    "metric": "softirqs",
+                    "description": null,
+                    "id": "CPUssoftirqs"
+                }
+            },
+            {
+                "data": {
+                    "metric": "interrupts",
+                    "description": null,
+                    "id": "CPUsinterrupts"
+                }
+            },
+            {
+                "data": {
+                    "metric": "cpuidle",
+                    "description": null,
+                    "id": "CPUscpuidle"
+                }
+            },
+            {
+                "data": {
+                    "metric": "utilization",
+                    "description": null,
+                    "id": "CPUsutilization"
+                }
+            }
+        ]
+    },
+    {
+        "data": {
+            "metric": "IPv6 Networking",
+            "description": "Metrics for the IPv6 stack of the system. <a href=\"https://en.wikipedia.org/wiki/IPv6\" target=\"_blank\">Internet Protocol version 6 (IPv6)</a> is the most recent version of the Internet Protocol (IP), the communications protocol that provides an identification and location system for computers on networks and routes traffic across the Internet. IPv6 was developed by the Internet Engineering Task Force (IETF) to deal with the long-anticipated problem of IPv4 address exhaustion. IPv6 is intended to replace IPv4.",
+            "id": ""
+        },
+        "children": [
+            {
+                "data": {
+                    "metric": "packets",
+                    "description": null,
+                    "id": "IPv6 Networkingpackets"
+                }
+            },
+            {
+                "data": {
+                    "metric": "icmp6",
+                    "description": null,
+                    "id": "IPv6 Networkingicmp6"
+                }
+            },
+            {
+                "data": {
+                    "metric": "multicast6",
+                    "description": null,
+                    "id": "IPv6 Networkingmulticast6"
+                }
+            },
+            {
+                "data": {
+                    "metric": "udp6",
+                    "description": null,
+                    "id": "IPv6 Networkingudp6"
+                }
+            },
+            {
+                "data": {
+                    "metric": "tcp6",
+                    "description": null,
+                    "id": "IPv6 Networkingtcp6"
+                }
+            }
+        ]
+    },
+    {
+        "data": {
+            "metric": "User Groups",
+            "description": "Per user group statistics are collected using netdata's <code>apps.plugin</code>. This plugin walks through all processes and aggregates statistics per user group. The reported values are compatible with <code>top</code>, although the netdata plugin counts also the resources of exited children (unlike <code>top</code> which shows only the resources of the currently running processes). So for processes like shell scripts, the reported values include the resources used by the commands these scripts run within each timeframe.",
+            "id": ""
+        },
+        "children": [
+            {
+                "data": {
+                    "metric": "processes",
+                    "description": null,
+                    "id": "User Groupsprocesses"
+                }
+            },
+            {
+                "data": {
+                    "metric": "net",
+                    "description": null,
+                    "id": "User Groupsnet"
+                }
+            },
+            {
+                "data": {
+                    "metric": "disk",
+                    "description": null,
+                    "id": "User Groupsdisk"
+                }
+            },
+            {
+                "data": {
+                    "metric": "mem",
+                    "description": null,
+                    "id": "User Groupsmem"
+                }
+            },
+            {
+                "data": {
+                    "metric": "swap",
+                    "description": null,
+                    "id": "User Groupsswap"
+                }
+            },
+            {
+                "data": {
+                    "metric": "cpu",
+                    "description": null,
+                    "id": "User Groupscpu"
+                }
+            }
+        ]
+    },
+    {
+        "data": {
+            "metric": "Users",
+            "description": "Per user statistics are collected using netdata's <code>apps.plugin</code>. This plugin walks through all processes and aggregates statistics per user. The reported values are compatible with <code>top</code>, although the netdata plugin counts also the resources of exited children (unlike <code>top</code> which shows only the resources of the currently running processes). So for processes like shell scripts, the reported values include the resources used by the commands these scripts run within each timeframe.",
+            "id": ""
+        },
+        "children": [
+            {
+                "data": {
+                    "metric": "processes",
+                    "description": null,
+                    "id": "Usersprocesses"
+                }
+            },
+            {
+                "data": {
+                    "metric": "net",
+                    "description": null,
+                    "id": "Usersnet"
+                }
+            },
+            {
+                "data": {
+                    "metric": "disk",
+                    "description": null,
+                    "id": "Usersdisk"
+                }
+            },
+            {
+                "data": {
+                    "metric": "mem",
+                    "description": null,
+                    "id": "Usersmem"
+                }
+            },
+            {
+                "data": {
+                    "metric": "swap",
+                    "description": null,
+                    "id": "Usersswap"
+                }
+            },
+            {
+                "data": {
+                    "metric": "cpu",
+                    "description": null,
+                    "id": "Userscpu"
+                }
+            }
+        ]
+    },
+    {
+        "data": {
+            "metric": "Applications",
+            "description": "Per application statistics are collected using netdata's <code>apps.plugin</code>. This plugin walks through all processes and aggregates statistics for applications of interest, defined in <code>/etc/netdata/apps_groups.conf</code>, which can be edited by running <code>$ /etc/netdata/edit-config apps_groups.conf</code> (the default is <a href=\"https://github.com/netdata/netdata/blob/master/collectors/apps.plugin/apps_groups.conf\" target=\"_blank\">here</a>). The plugin internally builds a process tree (much like <code>ps fax</code> does), and groups processes together (evaluating both child and parent processes) so that the result is always a chart with a predefined set of dimensions (of course, only application groups found running are reported). The reported values are compatible with <code>top</code>, although the netdata plugin counts also the resources of exited children (unlike <code>top</code> which shows only the resources of the currently running processes). So for processes like shell scripts, the reported values include the resources used by the commands these scripts run within each timeframe.",
+            "id": ""
+        },
+        "children": [
+            {
+                "data": {
+                    "metric": "processes",
+                    "description": null,
+                    "id": "Applicationsprocesses"
+                }
+            },
+            {
+                "data": {
+                    "metric": "net",
+                    "description": null,
+                    "id": "Applicationsnet"
+                }
+            },
+            {
+                "data": {
+                    "metric": "disk",
+                    "description": null,
+                    "id": "Applicationsdisk"
+                }
+            },
+            {
+                "data": {
+                    "metric": "mem",
+                    "description": null,
+                    "id": "Applicationsmem"
+                }
+            },
+            {
+                "data": {
+                    "metric": "swap",
+                    "description": null,
+                    "id": "Applicationsswap"
+                }
+            },
+            {
+                "data": {
+                    "metric": "cpu",
+                    "description": null,
+                    "id": "Applicationscpu"
+                }
+            }
+        ]
+    },
+    {
+        "data": {
+            "metric": "Sensors",
+            "description": "Readings of the configured system sensors.",
+            "id": ""
+        },
+        "children": [
+            {
+                "data": {
+                    "metric": "temperature",
+                    "description": null,
+                    "id": "Sensorstemperature"
+                }
+            }
+        ]
+    },
+    {
+        "data": {
+            "metric": "cups",
+            "description": null,
+            "id": ""
+        },
+        "children": [
+            {
+                "data": {
+                    "metric": "overview",
+                    "description": null,
+                    "id": "cupsoverview"
+                }
+            }
+        ]
+    },
+    {
+        "data": {
+            "metric": "Network Interfaces",
+            "description": "Performance metrics for network interfaces.",
+            "id": ""
+        },
+        "children": [
+            {
+                "data": {
+                    "metric": "ens32",
+                    "description": null,
+                    "id": "Network Interfacesens32"
+                }
+            }
+        ]
+    },
+    {
+        "data": {
+            "metric": "Memory",
+            "description": "Detailed information about the memory management of the system.",
+            "id": ""
+        },
+        "children": [
+            {
+                "data": {
+                    "metric": "hugepages",
+                    "description": "Hugepages is a feature that allows the kernel to utilize the multiple page size capabilities of modern hardware architectures. The kernel creates multiple pages of virtual memory, mapped from both physical RAM and swap. There is a mechanism in the CPU architecture called \"Translation Lookaside Buffers\" (TLB) to manage the mapping of virtual memory pages to actual physical memory addresses. The TLB is a limited hardware resource, so utilizing a large amount of physical memory with the default page size consumes the TLB and adds processing overhead. By utilizing Huge Pages, the kernel is able to create pages of much larger sizes, each page consuming a single resource in the TLB. Huge Pages are pinned to physical RAM and cannot be swapped/paged out.",
+                    "id": "Memoryhugepages"
+                }
+            },
+            {
+                "data": {
+                    "metric": "slab",
+                    "description": null,
+                    "id": "Memoryslab"
+                }
+            },
+            {
+                "data": {
+                    "metric": "kernel",
+                    "description": null,
+                    "id": "Memorykernel"
+                }
+            },
+            {
+                "data": {
+                    "metric": "system",
+                    "description": null,
+                    "id": "Memorysystem"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "key": "1",
+    "label": "[DO] Dominio",
+    "icon": null,
+    "collapsedIcon": "pi pi-folder",
+    "expandedIcon": "pi pi-folder-open",
+    "expanded": true,
+    "data": {
+      "pathName": "/Dominio",
+      "generalPosition": 1,
+      "level": 1,
+      "predecessor": null,
+      "siblingPosition": 1,
+      "type":"D"
+    },
+    "children": [
+      {
+        "key": "3",
+        "label": "[5] Subdominio1",
+        "icon": null,
+        "collapsedIcon": "pi pi-folder",
+        "expandedIcon": "pi pi-folder-open",
+        "expanded": false,
+        "data": {
+          "pathName": "/Dominio/Subdominio1",
+          "generalPosition": 2,
+          "level": 2,
+          "predecessor": 1,
+          "siblingPosition": 1,
+          "type":"D"
+        },
+        "children": [
+          {
+            "key": "13",
+            "label": "[5001] Recurso1",
+            "icon": null,
+            "collapsedIcon": "pi pi-folder",
+            "expandedIcon": "pi pi-folder-open",
+            "expanded": false,
+            "data": {
+              "pathName": "/Dominio/Subdominio1/Recurso1",
+              "generalPosition": 3,
+              "level": 3,
+              "predecessor": 3,
+              "siblingPosition": 1,
+              "type":"R"
+            },
+            "children": null
+          },
+          {
+            "key": "11",
+            "label": "[5002] Recurso2",
+            "icon": null,
+            "collapsedIcon": "pi pi-folder",
+            "expandedIcon": "pi pi-folder-open",
+            "expanded": false,
+            "data": {
+              "pathName": "/Dominio/Subdominio1/Recurso2",
+              "generalPosition": 4,
+              "level": 3,
+              "predecessor": 2,
+              "siblingPosition": 2,
+              "type":"R"
+            },
+            "children": null
+          },
+          {
+            "key": "2",
+            "label": "[5004] Recurso3",
+            "icon": null,
+            "collapsedIcon": "pi pi-folder",
+            "expandedIcon": "pi pi-folder-open",
+            "expanded": false,
+            "data": {
+              "pathName": "/Dominio/Subdominio1/Recurso3",
+              "generalPosition": 5,
+              "level": 3,
+              "predecessor": 2,
+              "siblingPosition": 3,
+              "type":"R"
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+        "key": "4",
+        "label": "[99] Subdominio2",
+        "icon": null,
+        "collapsedIcon": "pi pi-folder",
+        "expandedIcon": "pi pi-folder-open",
+        "expanded": false,
+        "data": {
+          "pathName": "/Dominio/Subdominio2",
+          "generalPosition": 463,
+          "level": 2,
+          "predecessor": 1,
+          "siblingPosition": 33,
+          "type":"D"
+        },
+        "children": null
+      }
+    ]    
+  },
+  {
+    "key": "2",
+    "label": "[DO] Dominio2",
+    "icon": null,
+    "collapsedIcon": "pi pi-folder",
+    "expandedIcon": "pi pi-folder-open",
+    "expanded": true,
+    "data": {
+      "pathName": "/Dominio2",
+      "generalPosition": 2,
+      "level": 1,
+      "predecessor": null,
+      "siblingPosition": 2,
+      "type":"D"
+    },
+    "children":null
+  },
+  {
+    "key": "7",
+    "label": "[DO] Dominio3",
+    "icon": null,
+    "collapsedIcon": "pi pi-folder",
+    "expandedIcon": "pi pi-folder-open",
+    "expanded": true,
+    "data": {
+      "pathName": "/Dominio3",
+      "generalPosition": 3,
+      "level": 1,
+      "predecessor": null,
+      "siblingPosition": 3,
+      "type":"D"
+    },
+    "children":null
+  }
+]

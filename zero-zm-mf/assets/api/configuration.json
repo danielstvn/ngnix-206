@@ -1,0 +1,114 @@
+[
+  {
+    "id": "1",
+    "dbSchema": "zero_ge",
+    "dbTable": "get_module",
+    "onInsert": "YES",
+    "onUpdate": "NO",
+    "onDelete": "NO",
+    "status": "PENDING",
+    "documentation": ""
+  },
+  {
+    "id": "2",
+    "dbSchema": "zero_ge",
+    "dbTable": "get_configur",
+    "onInsert": "YES",
+    "onUpdate": "YES",
+    "onDelete": "YES",
+    "status": "PENDING",
+    "documentation": ""
+  },
+  {
+    "id": "3",
+    "dbSchema": "zero_ge",
+    "dbTable": "get_module2",
+    "onInsert": "YES",
+    "onUpdate": "YES",
+    "onDelete": "YES",
+    "status": "PENDING",
+    "documentation": ""
+  },
+  {
+    "id": "4",
+    "dbSchema": "zero_ge",
+    "dbTable": "get_module3",
+    "onInsert": "YES",
+    "onUpdate": "YES",
+    "onDelete": "YES",
+    "status": "ACTIVE",
+    "documentation": ""
+  },
+  {
+    "id": "5",
+    "dbSchema": "zero_se",
+    "dbTable": "get_configura",
+    "onInsert": "YES",
+    "onUpdate": "YES",
+    "onDelete": "YES",
+    "status": "ACTIVE",
+    "documentation": ""
+  },
+  {
+    "id": "6",
+    "dbSchema": "zero_ab",
+    "dbTable": "get_module2",
+    "onInsert": "YES",
+    "onUpdate": "YES",
+    "onDelete": "YES",
+    "status": "ACTIVE",
+    "documentation": ""
+  },
+
+  {
+    "id": "7",
+    "dbSchema": "zero_bc",
+    "dbTable": "get_module4",
+    "onInsert": "YES",
+    "onUpdate": "YES",
+    "onDelete": "YES",
+    "status": "ACTIVE",
+    "documentation": ""
+  },
+
+  {
+    "id": "8",
+    "dbSchema": "zero_ze",
+    "dbTable": "get_module3",
+    "onInsert": "YES",
+    "onUpdate": "YES",
+    "onDelete": "YES",
+    "status": "ACTIVE",
+    "documentation": ""
+  },
+  {
+    "id": "9",
+    "dbSchema": "zero_de",
+    "dbTable": "get_ast_configura",
+    "onInsert": "YES",
+    "onUpdate": "YES",
+    "onDelete": "YES",
+    "status": "ACTIVE",
+    "documentation": ""
+  },
+  {
+    "id": "10",
+    "dbSchema": "zero_ce",
+    "dbTable": "get_ast_2",
+    "onInsert": "YES",
+    "onUpdate": "YES",
+    "onDelete": "YES",
+    "status": "ACTIVE",
+    "documentation": ""
+  },
+  {
+    "id": "11",
+    "dbSchema": "zero_we",
+    "dbTable": "get_modulo2",
+    "onInsert": "YES",
+    "onUpdate": "YES",
+    "onDelete": "YES",
+    "status": "ACTIVE",
+    "documentation": ""
+  }
+]
